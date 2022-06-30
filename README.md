@@ -32,7 +32,7 @@ www.ody.local.          3600    IN      A       192.168.0.250
 ```
 4. Reverse Query
 ```
- % dig @localhost -x 192.168.0.250                                           ?[main]
+ % dig @localhost -x 192.168.0.250
 
 ; <<>> DiG 9.10.6 <<>> @localhost -x 192.168.0.250
 ; (2 servers found)
