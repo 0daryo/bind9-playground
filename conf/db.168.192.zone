@@ -1,0 +1,13 @@
+$ORIGIN 168.192.in-addr.arpa.
+$TTL 1h
+@ IN SOA ody.local. postmaster.ody.local. (
+    2017030501 ; Serial Number
+    1h         ; Refresh
+    15m        ; Retry
+    1d         ; expire
+    1h         ; minimum
+);
+
+    IN NS ody.local.
+249.0  IN PTR  ody.local.
+250.0 IN PTR  www.ody.local.
