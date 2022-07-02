@@ -1,5 +1,5 @@
 $TTL 1h
-@ IN SOA ody.local. postmaster.ody.local. (
+@ IN SOA ns.ody.local. postmaster.ody.local. (
     2017030501 ; Serial Number
     1h         ; Refresh
     15m        ; Retry
@@ -7,6 +7,7 @@ $TTL 1h
     1h         ; minimum
 );
 
-    IN NS ody.local.
-    IN A  192.168.0.249
+    IN NS ns.ody.local.
+    IN A  192.168.0.248
+ns  IN A  192.168.0.249
 www IN A  192.168.0.250
